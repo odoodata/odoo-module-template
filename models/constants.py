@@ -1,0 +1,1 @@
+PRODUCT_NAME_TEMPLATE = "Ginásio (%s/%s)"

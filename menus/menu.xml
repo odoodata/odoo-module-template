@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem id="menu_gym_root" name="Ginásio" sequence="10"/>
+
+    <menuitem id="menu_gym_members" name="Membros" parent="menu_gym_root" sequence="0"/>
+
+    <menuitem id="menu_gym_clients" name="Clientes" parent="menu_gym_members" action="action_gym_client" sequence="0"/>
+
+</odoo>
