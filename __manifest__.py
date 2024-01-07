@@ -15,6 +15,7 @@
         "security/ir.model.access.csv",
         "security/security.xml",
         "data/data.xml",
+        "demo/demo.xml",
         "views/client_view.xml",
 		"menus/menu.xml",
         "reports/gym_client_card.xml",
