@@ -10,7 +10,7 @@
     "website": "https://odoodata.com",
 	"development_status": "Beta",
 	"license": "LGPL-3",
-    "depends" : ["account"],
+    "depends" : [],
     "data": [
         "security/ir.model.access.csv",
         "security/security.xml",
@@ -18,7 +18,7 @@
         "demo/demo.xml",
         "views/client_view.xml",
 		"menus/menu.xml",
-        "reports/gym_client_card.xml",
+        "reports/report.xml",
     ],
 	"images" : [],
     "demo": [],

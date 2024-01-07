@@ -1,2 +1,1 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_gym_client,access.gym.client,model_gym_client,gym_app.group_gym_manager,1,1,1,0
