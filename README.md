@@ -1,1 +1,1 @@
-# Módulo Template
+# Odoo Module Template
