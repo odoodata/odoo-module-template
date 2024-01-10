@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <menuitem id="menu_gym_root" name="Ginásio" sequence="10"/>
+    <record id="action_demo_client" model="ir.actions.act_window">
+        <field name="name">Clientes</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">demo.client</field>
+        <field name="view_mode">tree,form,search</field>
+        <field name="context">{}</field>
+    </record>
 
-    <menuitem id="menu_gym_members" name="Membros" parent="menu_gym_root" sequence="0"/>
+    <menuitem id="menu_demo_root" name="Odoo App Template" sequence="10"/>
 
-    <menuitem id="menu_gym_clients" name="Clientes" parent="menu_gym_members" action="action_gym_client" sequence="0"/>
+    <menuitem id="menu_demo_members" name="Miembros" parent="menu_demo_root" action="action_demo_client" sequence="0"/>
 
 </odoo>

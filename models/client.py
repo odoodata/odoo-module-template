@@ -5,8 +5,9 @@ from . import constants
 
 
 class Client(models.Model):
-    _name = "gym.client"
-    _description = "Gym Client"
+    _name = "demo.client"
+    _description = "Client"
     _order = "id desc"
 
-    name = fields.Char(string='Nome', required=True, size=255, tracking=True)
+    name = fields.Char(string='Name', required=True, size=40, tracking=True)
+    age = fields.Integer(string='Age', required=True)
